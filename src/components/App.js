@@ -18,6 +18,7 @@ const App = () => {
   
   <li>  <Link to="/women">Women</Link></li>
    </ul>
+   <main>
       <Switch> 
 
     
@@ -25,7 +26,7 @@ const App = () => {
          <Route path="/" exact component={Home}></Route>
          <Route path="/women" exact  component={Women}></Route>
          </Switch>
-
+</main>
          </Router>
          
     
