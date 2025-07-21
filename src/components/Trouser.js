@@ -2,7 +2,10 @@ import React from 'react'
 
 const Trouser = () => {
   return (
-    <div>Trouser</div>
+    <div className='main'>
+     <div>Trouser</div>
+    </div>
+    
   )
 }
 

@@ -9,8 +9,8 @@ import { Link, Route, BrowserRouter as Router, Switch } from "react-router-dom/c
 
 const App = () => {
   return (
-    <div className="main"> 
-    <div>
+    
+    
     <Router> 
       <ul>
     <li><Link to="/">Home</Link></li>
@@ -27,8 +27,7 @@ const App = () => {
          </Switch>
 
          </Router>
-         </div>
-         </div>
+         
     
           
       

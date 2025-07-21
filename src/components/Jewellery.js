@@ -2,7 +2,10 @@ import React from 'react'
 
 const Jewellery = () => {
   return (
-    <div>Jewellery</div>
+    <div className='main'>
+      <div>Jewellery</div>
+    </div>
+    
   )
 }
 

@@ -2,7 +2,10 @@ import React from 'react'
 
 const Shirt = () => {
   return (
-    <div>Shirt</div>
+    <div  className='main'>
+     <div>Shirt</div>
+    </div>
+     
   )
 }
 
