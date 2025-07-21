@@ -30,13 +30,14 @@ const Women = () => {
      
     
      
-        
+    <main>
     <Switch> 
         <Route path={`${path}/Grooming`}exact component={Grooming}></Route>
         <Route path={`${path}/Trouser`}exact component={Trouser}></Route>
         <Route path={`${path}/Shirt`}exact  component={Shirt}></Route>
         <Route path={`${path}/Jewellery`}exact component={Jewellery}></Route>
         </Switch>
+        </main>
         </Router>
     
      
