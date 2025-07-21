@@ -15,22 +15,24 @@ const Women = () => {
     
         
             <h4>Women Items:</h4>
+            <nav>
            <ul>
-     <li> <Link    to={`${url}/grooming`}>Grooming</Link></li>
-         <li><Link to={`${url}/trouser`}>Trouser</Link></li>
-        <li> <Link to={`${url}/shirt`}>Shirt</Link></li>
-       <li><Link   to={`${url}/jewellery`}>Jewellery</Link></li>
+           
+     <li> <Link    to={`${url}/Grooming`}>Grooming</Link></li>
+         <li><Link to={`${url}/Trouser`}>Trouser</Link></li>
+        <li> <Link to={`${url}/Shirt`}>Shirt</Link></li>
+       <li><Link   to={`${url}/Jewellery`}>Jewellery</Link></li>
      </ul>
-
+</nav>
      
     
      
         
     <Switch> 
-        <Route path={`${path}/grooming`}exact component={Grooming}></Route>
-        <Route path={`${path}/trouser`}exact component={Trouser}></Route>
-        <Route path={`${path}/shirt`}exact  component={Shirt}></Route>
-        <Route path={`${path}/jewellery`}exact component={Jewellery}></Route>
+        <Route path={`${path}/Grooming`}exact component={Grooming}></Route>
+        <Route path={`${path}/Trouser`}exact component={Trouser}></Route>
+        <Route path={`${path}/Shirt`}exact  component={Shirt}></Route>
+        <Route path={`${path}/Jewellery`}exact component={Jewellery}></Route>
         </Switch>
         </Router>
     
