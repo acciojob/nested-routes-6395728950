@@ -10,6 +10,10 @@ const Women = () => {
   console.log("what is come in path and url",path);
   console.log(url);
   return (
+    <div  className='main'>
+      <div>
+
+    
     <Router> 
 
     
@@ -35,7 +39,8 @@ const Women = () => {
         <Route path={`${path}/Jewellery`}exact component={Jewellery}></Route>
         </Switch>
         </Router>
-    
+    </div>
+    </div>
      
   )
 }
